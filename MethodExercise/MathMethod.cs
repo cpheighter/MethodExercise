@@ -35,5 +35,35 @@ namespace MethodExercise
             }
             return total;
         }
+        public static double SubtractAnything(params double[] allnum)
+        {
+            double total = 0;
+
+            foreach (double num in allnum)
+            {
+                total -= num;
+            }
+            return total;
+        }
+        public static double MultiplyAnything(params double[] allnum)
+        {
+            double total = 0;
+
+            foreach (double num in allnum)
+            {
+                total *= num;
+            }
+            return total;
+        }
+        public static double DivideAnything(params double[] allnum)
+        {
+            double total = 0;
+
+            foreach (double num in allnum)
+            {
+                total /= num;
+            }
+            return total;
+        }
     }
 }
