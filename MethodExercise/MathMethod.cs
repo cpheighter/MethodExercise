@@ -35,7 +35,7 @@ namespace MethodExercise
             }
             return total;
         }
-        public static double SubtractAnything(params double[] allnum)
+        /*public static double SubtractAnything(params double[] allnum)
         {
             double total = 0;
 
@@ -47,7 +47,7 @@ namespace MethodExercise
         }
         public static double MultiplyAnything(params double[] allnum)
         {
-            double total = 0;
+            double total = 1;
 
             foreach (double num in allnum)
             {
@@ -57,13 +57,13 @@ namespace MethodExercise
         }
         public static double DivideAnything(params double[] allnum)
         {
-            double total = 0;
+            double total = allnum[0];
 
             foreach (double num in allnum)
             {
                 total /= num;
             }
             return total;
-        }
+        }*/
     }
 }
